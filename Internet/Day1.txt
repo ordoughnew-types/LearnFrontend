@@ -1,0 +1,37 @@
+What is Internet?
+- An internet is basically a the place of computers. Is it like the earth for computers.
+- Every computer in the world has an IP Address. It is their home address in the internet 
+just like humans.
+- So when my computer searches for a computer in the internet, its basically saying that 
+we can talk to this other computer in this address.
+
+What is HTTP?
+- HTTP is basically the language of browsers and servers to communicate on what should they do
+- So imagine if we searched for youtube, the computer requesting sends a GET function to the
+server where youtube is and asks for whatever is in the GET request then it will be understood
+by the server and send OK and will send the data back to requesting computer. Four of the 
+common functions are GET to get data, POST to create data, PUT to update data, and DELETE to
+delete data
+
+What is Domain Name?
+- Domain name is like the nickname of computers, instead of using the IP Address, we use
+domain names just like when we store phone numbers in our phone, we usually use nicknames
+instead of the numbers to better memorize it.
+
+What is DNS?
+- DNS is the Domain Name System. It is like a phonebook for domains where a computer can ask
+what is the domain of this ip address for example, so that my browser will now know where to
+go.
+
+What is Hosting?
+- So basically hosting is when we run our application in an existing computer that is in the
+internet in order for other computers that are connected to internet to access it also.
+
+How browser works?
+- Basically users makes requests with browser, now upon that request, the browser will contact
+DNS to get the IP address of the domain name requested, Upon getting the ip address, the
+browser sends an HTTP request to the ip address and then the server will respond by sending 
+the html, the browser will run the html and execute the code.
+
+
+
