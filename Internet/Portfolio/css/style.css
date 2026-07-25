@@ -1,0 +1,48 @@
+/*
+    Global Styles
+*/
+
+body {
+    background-color: #f5f5f5;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+.home-buttons a {
+    padding: 15px 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.home-image img{
+    width: 250px;
+    height: auto;
+    margin-top: 20px;;
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*
+    Typography
+*/
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: steelblue;
+}
+
