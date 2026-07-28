@@ -9,19 +9,20 @@
 <body>
     <header>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#achievements">Achievements</a>
-            <a href="#contacts">Contact</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
-
         <section id="home"> 
             <div class="home-left">
                 <div class="home-content">
@@ -30,12 +31,12 @@
                     <h2>Computer Science Graduate</h2>
                 </div>
                 <div class="home-buttons">
-                    <a href="OrdonioAdrian_Resume.pdf">Download Resume</a>
+                    <a href="OrdonioAdrian_Resume.pdf" download>Download Resume</a>
                     <a href="#projects">View Projects</a>
                 </div>
             </div>
             <div class="home-image">
-                <img src="assets/images/profile.jpg" alt="A Portrait of Adrian James Ordonio">
+                <img src="assets/images/Profile.jpg" alt="A Portrait of Adrian James Ordonio">
             </div>
         </section>
 
@@ -63,79 +64,97 @@
         </section>
         <section id="skills">
             <h2>Technical Skills</h2>
-            <h3>Programming Languages</h3>
-            <ul>
-                <li>Java</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>SQL</li>
-                <li>C++</li>
-            </ul>
-            <h3>Web Technologies</h3>
-            <ul>
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Laravel</li>
-                <li>Node.js</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-            <h3>Tools</h3>
-            <ul>
-                <li>Visual Studio Code</li>
-                <li>Google Colab</li>
-                <li>Excel</li>
-                <li>Git</li>
-                <li>Github</li>
-            </ul>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <ul>
+                        <li>React</li>
+                        <li>Next.js</li>
+                        <li>Laravel</li>
+                        <li>Node.js</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Visual Studio Code</li>
+                        <li>Google Colab</li>
+                        <li>Excel</li>
+                        <li>Git</li>
+                        <li>Github</li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <div class="projects-1-content">
-                <h3>AI Emotional Support Chatbot (Thesis)</h3>
-                <p>Technologies: Next.js, Laravel, FastAPI, Python, MySQL</p>
-                <p>Developed an AI-powered emotional support chatbot for university students using Next.js, Laravel, FastAPI, and MySQL, integrating a 
-                    LoRA fine-tuned LLaMA 3.1 model with crisis-risk detection and emergency hotline recommendations for safe and empathetic user 
-                    support.
-                </p>
+            <div class="project">
+                <div class="projects-content">
+                    <h3>AI Emotional Support Chatbot (Thesis)</h3>
+                    <p>Technologies: Next.js, Laravel, FastAPI, Python, MySQL</p>
+                    <p>Developed an AI-powered emotional support chatbot for university students using Next.js, Laravel, FastAPI, and MySQL, integrating a 
+                        LoRA fine-tuned LLaMA 3.1 model with crisis-risk detection and emergency hotline recommendations for safe and empathetic user 
+                        support.
+                    </p>
+                </div>
+                <div class="projects-image">
+                    <img src="assets/images/CapyBuddy.jpg" alt="AI Emotional Support Chatbot Snippet">
+                    <img src="assets/images/CapyBuddy_Chat.jpg" alt="AI Emotional Support Chatbot Snippet">
+                </div>
             </div>
-            <div class="projects-1-image">
-                <img src="" alt="AI Emotional Support Chatbot Snippet">
-            </div>
-            <div class="projects-2-content">
-                <h3>Strawberry Disease Identification System</h3>
-                <p>Technologies: Python, TensorFlow/Keras, MobileNetV2, HTML, CSS, JavaScript</p>
-                <p>Co-developed a deep learning-based strawberry disease detection system using MobileNetV2 and a dataset of 7,398 annotated images,
-                     achieving 99% classification accuracy across seven disease categories and evaluating performance using standard machine 
-                     learning metrics.
-                </p>
-            </div>
-            <div class="projects-2-image">
-                <img src="" alt="Strawberry Disease Identification System Snippet">
+            <div class="project">
+                <div class="projects-content">
+                    <h3>Strawberry Disease Identification System</h3>
+                    <p>Technologies: Python, TensorFlow/Keras, MobileNetV2, HTML, CSS, JavaScript</p>
+                    <p>Co-developed a deep learning-based strawberry disease detection system using MobileNetV2 and a dataset of 7,398 annotated images,
+                        achieving 99% classification accuracy across seven disease categories and evaluating performance using standard machine 
+                        learning metrics.
+                    </p>
+                </div>
+                <div class="projects-image">
+                    <img src="assets/images/StrawberryDiseaseDetectionSystem.jpg" alt="Strawberry Disease Identification System Snippet">
+                </div>
             </div>
         </section>
         <section id="achievements">
             <h2>Achievements</h2>
-            <div class="achievement-1-content">
-                <h3>Published "A Deep Learning-Based System for Strawberry Plant Disease Identification"</h3>
-                <p>Published "A Deep Learning-Based System for Strawberry Plant Disease Identification" as a co-author in the Journal of Global 
-                    Business Online Journal (Volume 14, Issue 3, ISSN 2350-7179), November 2025.
-                </p>
+            <div class="achievement">
+                <div class="achievement-content">
+                    <h3>Published "A Deep Learning-Based System for Strawberry Plant Disease Identification"</h3>
+                    <p>Published "A Deep Learning-Based System for Strawberry Plant Disease Identification" as a co-author in the Journal of Global 
+                        Business Online Journal (Volume 14, Issue 3, ISSN 2350-7179), November 2025.
+                    </p>
+                </div>
+                <div class="achievement-image">
+                    <img src="assets/images/GawadSanLuis.jpg" alt="GawadSanLuis">
+                    <img src="assets/images/PublishedPaper.jpg" alt="Publication Proof">
+                </div>
             </div>
-            <div class="achievements-1-image">
-                <img src="" alt="Publication Proof">
-            </div>
-            <div class="achievements-2-content">
-                <h3>Best Research Paper in Engineering, Computing, and Technology</h3>
-                <h4>Comparative Analysis of Traditional Machine Learning and Deep Learning Models for Strawberry Disease</h4>
-                <p>Co-authored "Comparative Analysis of Traditional Machine Learning and Deep Learning Models for Strawberry Disease", awarded 
-                    Best Research Paper in Engineering, Computing, and Technology during the 1st International Conference on Sustainable Development
-                     in Education, Technology, Agriculture, and Gender and Development, held at Isabela State University, March 2026.
-                </p>
-            </div>
-            <div class="achievements-2-image">
-                <img src="" alt="Best Research Paper Certificate">
+            <div class="achievement">
+                <div class="achievement-content">
+                    <h3>Best Research Paper in Engineering, Computing, and Technology</h3>
+                    <h4>Comparative Analysis of Traditional Machine Learning and Deep Learning Models for Strawberry Disease</h4>
+                    <p>Co-authored "Comparative Analysis of Traditional Machine Learning and Deep Learning Models for Strawberry Disease", awarded 
+                        Best Research Paper in Engineering, Computing, and Technology during the 1st International Conference on Sustainable Development
+                        in Education, Technology, Agriculture, and Gender and Development, held at Isabela State University, March 2026.
+                    </p>
+                </div>
+                <div class="achievement-image">
+                    <img src="assets/images/BestResearchPaper-Certificate.jpg" alt="Best Research Paper Certificate">
+                </div>
             </div>
         </section>
         <section id="contacts">
@@ -150,5 +169,5 @@
     <footer>
         <p>&copy; 2026 Adrian James Ordonio. All rights reserved.</p>
     </footer>
-    
 </body>
+</html>
